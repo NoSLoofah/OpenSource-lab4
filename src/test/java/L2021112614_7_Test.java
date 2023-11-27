@@ -54,6 +54,9 @@ public class L2021112614_7_Test {
         Integer[][] a4 = new Integer[][]{{0,1},{1,2}};
         List<List<Integer>> l4 = arrayToList(a4);
         assertEquals("至少一种交换使用多于一次","abc",s.smallestStringWithSwaps(s4,l4));
+
+        //修改为不能通过测试
+        assertEquals(0,1);
     }
 
     private List<List<Integer>> arrayToList(Integer[][] arr)
